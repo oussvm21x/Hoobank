@@ -1,0 +1,192 @@
+.gen-pad {
+    @apply p-8 md:p-5 md:px-24 lg:px-32;
+}
+
+.flex-center-between {
+    @apply flex items-center justify-between;
+}
+
+.flex-center {
+    @apply flex items-center justify-center;
+}
+
+.list-item {
+    @apply px-5 font-poppins text-dimWhite hover:text-white
+}
+
+.slide-bottom {
+    animation: slide-bottom .5s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@-webkit-keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px)
+    }
+
+    100% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px)
+    }
+}
+
+@keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    100% {
+        -webkit-transform: translateY(28px);
+        transform: translateY(28px)
+    }
+}
+
+.slide-top {
+    -webkit-animation: slide-top .5s cubic-bezier(.25, .46, .45, .94) both;
+    animation: slide-top .5s cubic-bezier(.25, .46, .45, .94) both
+}
+
+
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+}
+
+.text-Blue {
+    background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-dark_grey {
+    background: linear-gradient(125deg, #272727 0%, #11101D 100%);
+}
+
+/*Hero Section Styling*/
+.mainHero {
+    @apply flex justify-center lg:justify-start font-poppins flex-col lg:flex-row
+}
+
+.discount {
+    @apply flex items-center py-1 px-3 rounded-xl w-fit mb-5;
+}
+
+.arrowDiv {
+    @apply flex md:items-center flex-col md:flex-row
+}
+
+.arrow {
+    @apply my-8 text-lg not-italic font-semibold leading-[130%] border-2 rounded-[50%] border-[white] cursor-pointer text-Blue flex flex-col justify-center items-center font-poppins w-[100px] h-[100px] lg:w-[140px] lg:h-[140px];
+}
+
+.p-style {
+    @apply mt-5 text-dimWhite text-base lg:text-lg not-italic font-normal leading-[170%] font-poppins;
+
+}
+
+.header {
+    @apply text-white not-italic font-semibold leading-[140%] tracking-[0.72px] font-poppins text-3xl sm:text-4xl md:text-5xl xl:text-7xl;
+}
+
+.robot {
+    @apply w-[350px] xs:w-[390px] sm:w-[500px] md:w-[700px] lg:w-[1200px]
+}
+
+/*___________________________________________________________________________________________*/
+.stat {
+    @apply text-white text-[32px] not-italic font-semibold leading-[130%] font-poppins;
+    /* 53.16px */
+}
+
+.statText {
+    @apply text-[20.446px] not-italic font-normal leading-[130%] uppercase font-poppins;
+}
+
+
+/*_________________________________________________________________________________________________*/
+
+.model {
+    @apply text-white text-2xl md:text-3xl lg:text-4xl xl:text-5xl not-italic font-semibold leading-[160%] tracking-[0.48px] font-poppins;
+
+    /* 76.8px */
+}
+
+.model-text {
+    @apply text-dimWhite text-base lg:text-lg not-italic font-normal leading-[170%] tracking-[0.18px] font-poppins;
+    /* 30.6px */
+}
+
+.btn-text {
+    @apply text-[#00040E] text-base lg:text-lg not-italic font-medium leading-[150%] capitalize font-poppins bg-secondary p-2 lg:p-3 px-5 rounded-xl;
+
+}
+
+.featureModel-heading {
+    @apply text-white text-base lg:text-lg not-italic font-semibold leading-[130%] tracking-[0.18px] capitalize font-poppins;
+    /* 23.4px */
+}
+
+.featureModel-txt {
+    @apply text-sm lg:text-base not-italic font-normal leading-[normal] font-poppins text-dimWhite;
+}
+
+
+/*_____________________________________________________________________________________________*/
+.review-header {
+    @apply text-white text-3xl lg:text-4xl xl:text-5xl not-italic font-semibold leading-[170%] font-poppins xl:w-[470px];
+
+}
+
+.review-text {
+    @apply text-dimWhite text-sm lg:text-base xl:text-lg not-italic font-normal leading-[180%] tracking-[0.18px] font-poppins xl:w-[450px];
+}
+
+
+
+.personP {
+    @apply text-white text-lg not-italic font-normal leading-[180%] tracking-[0.36px] font-poppins;
+
+    /* 32.4px */
+}
+
+.personHeader {
+    @apply text-white text-xl not-italic font-normal leading-8 font-poppins;
+
+    /* 160% */
+}
+
+.personTxt {
+    @apply text-dimWhite text-base not-italic font-normal leading-[normal] font-poppins;
+}
+
+.listStyle {
+    @apply text-dimWhite text-lg not-italic font-normal leading-8 font-poppins;
+
+    /* 177.778% */
+}
+
+.listHeader {
+    @apply text-white text-center text-lg not-italic font-medium leading-[150%] font-poppins;
+    /* 27px */
+}
